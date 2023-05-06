@@ -29,3 +29,5 @@ grid.place(x=20, y=40, height=500)
 vsb = ttk.Scrollbar(form, orient="vertical", command=grid.yview)
 vsb.place(x=20+450+3, y=40+3, height=500)
 grid.configure(yscrollcommand=vsb.set)
+
+form.mainloop()
